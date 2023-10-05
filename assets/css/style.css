@@ -1152,7 +1152,7 @@ footer .social-links a i {
     user-select: none;
     background-image: none;
     /* border: 1px solid red; */
-    border-radius: 4px;
+    border-radius: 8px;
     background-color: white;
 }
 /*End Footer*/
