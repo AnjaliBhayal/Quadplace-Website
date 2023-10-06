@@ -52,11 +52,11 @@
     }
 
     /*-- about --*/
-    .about .my__img {
-        padding-right: 20px;
-        margin-bottom: 30px
-    }
-
+        .about .my__img {
+            padding-right: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
     .about .padding-left-25 {
         padding-left: 15px;
     }
