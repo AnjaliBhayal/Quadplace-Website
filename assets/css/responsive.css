@@ -84,6 +84,20 @@
         padding-left: 15px;
     }
 
+    img.logo.default-logo {
+        margin-left: 12px;
+    }
+
+    .go_down {
+        margin-left: 11px;
+    }
+
+    .home .curveDownColor {
+        bottom: auto;
+
+    }
+
+    .home h1 {}
 }
 
 @media(max-width:500px) {

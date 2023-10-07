@@ -673,7 +673,7 @@ h4,
     position: absolute;
     bottom: 54px;
     z-index: 5;
-    left: 98%;
+    left: 1%;
     text-align: center;
 }
 
@@ -1192,29 +1192,30 @@ footer .social-links a i {
     user-select: none;
     background-image: none;
     /* border: 1px solid red; */
-    border-radius: 8px;
+    border-radius: 14px;
     background-color: white;
 }
 
 /*End Footer*/
 
-
-
-
-
-
-.logo-container {
+/* custom logo css */
+header {
     position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 999;
-}
-.logo {
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
-    max-width: 110px;
-    transition: opacity 0.3s;
+    background-color: #fff;
+    /* Adjust as needed */
+    z-index: 1000;
+    /* Ensure the header is above other content */
 }
-.hidden {
-    display: none;
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    max-height: 40px;
 }
