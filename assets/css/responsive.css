@@ -92,9 +92,15 @@
         margin-left: 11px;
     }
 
-    .home .curveDownColor {
+    .home .curveDownColor { 
         bottom: auto;
 
+    }
+
+    #logo {
+        height: 100%;
+        width: 100%;
+        max-width: 99px;
     }
 
     .home h1 {}

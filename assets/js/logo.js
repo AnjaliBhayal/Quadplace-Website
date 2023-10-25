@@ -21,10 +21,10 @@ $(document).ready(function () {
     var logo = $("#logo");
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) { // Adjust the scroll position where the logo changes
-            logo.attr("src", "assets/images/sdjf-removebg-preview.png"); // Change the logo source
+        if ($(this).scrollTop() > 100) { 
+            logo.attr("src", "assets/images/sdjf-removebg-preview.png"); 
         } else {
-            logo.attr("src", "assets/images/white quadplace.png"); // Restore the original logo source
+            logo.attr("src", "assets/images/white quadplace.png"); 
         }
     });
 }); 

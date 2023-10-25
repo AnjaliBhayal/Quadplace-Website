@@ -40,11 +40,20 @@ body {
 }
 
 /* cjanges */
-img {
+h3 img {
     border-style: none;
     width: 100%;
     height: auto;
     max-width: 110px;
+    /* max-width: 100%;              */
+    vertical-align: top;
+}
+
+img {
+    border-style: none;
+    width: 100%;
+    height: auto;
+    /* max-width: 110px; */
     /* max-width: 100%;              */
     vertical-align: top;
 }
@@ -793,13 +802,14 @@ h4,
     margin-bottom: 18px;
 }
 
+
 .about .my__img {
     padding-right: 30px;
     padding-bottom: 30px;
 }
 
 .about .my__img img {
-    box-shadow: 20px 20px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px 20px 1px #f3f3f3;
 }
 
 .about .padding-left-25 {
@@ -1213,7 +1223,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 #logo {
